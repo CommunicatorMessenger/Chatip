@@ -2,7 +2,7 @@
 <c2project>
     <name>Chatip</name>
     <description>Chat concorrente do Xat.com para você colocar em seu site.</description>
-    <version>0.2.7.6</version>
+    <version>0.2.8.3</version>
     <author>Plasmmer</author>
     <author-email>plasmmer@outlook.com</author-email>
     <author-website>http://</author-website>
@@ -76,6 +76,14 @@
         </object-type>
         <object-type name="TestName" sid="268917059490056">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="TestAvatar" sid="119659111656826">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="879407309101357" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />

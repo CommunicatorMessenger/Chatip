@@ -217,6 +217,42 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="778707648116716">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="776218667799910" type="WebStorage">
+                            <param id="0" name="Key">&quot;avatar&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="366454989046969" type="System">
+                            <param id="0" name="Variable">avatar</param>
+                            <param id="1" name="Value">WebStorage.LocalValue(&quot;avatar&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="607636628684972">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="367856902349953" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="769887964531948" type="System">
+                            <param id="0" name="Variable">avatar</param>
+                            <param id="1" name="Value">int(random(151))</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="317070109701229" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="435197235739474" type="WebStorage">
+                            <param id="0" name="Key">&quot;avatar&quot;</param>
+                            <param id="1" name="Value">avatar</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="423406898348188" type="TestAvatar">
+                            <param id="0" name="URI">avatar &amp; &quot;.png&quot;</param>
+                            <param id="1" name="Size">0</param>
+                            <param id="2" name="Cross-origin">0</param>
+                        </action>
+                    </actions>
+                </event-block>
             </sub-events>
         </event-group>
         <event-group description="" sid="188982759573726" title="Messaging">
