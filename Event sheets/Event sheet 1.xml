@@ -284,7 +284,7 @@
                     <actions>
                         <action id="0" name="Call function" sid="9035553752158955" type="Function">
                             <param id="0" name="Name">&quot;AddMessage&quot;</param>
-                            <param id="1" name="Parameter {n}">&quot;&lt;img src=&quot; &amp; avatar &amp; &quot;.png&gt; &quot; &amp; name &amp; &quot;: &quot; &amp; Field.Text &amp; &quot;&lt;br/&gt;&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;&lt;img src=&quot; &amp; avatar &amp; &quot;.png title=&quot; &amp; name &amp; &quot;&gt; &quot; &amp; name &amp; &quot;: &quot; &amp; Field.Text &amp; &quot;&lt;br/&gt;&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="3388687639990471" type="Field">
                             <param id="0" name="Text">&quot;&quot;</param>
