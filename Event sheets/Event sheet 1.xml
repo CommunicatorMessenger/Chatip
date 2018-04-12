@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="name" sid="133263561997086" static="0" type="text">Plasmmer</variable>
+        <variable constant="0" name="avatar" sid="950606136152004" static="0" type="number">1</variable>
+        <event-block sid="1482987199973487">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="788096131045558" type="System" />
+            </conditions>
+            <actions>
+                <action id="7" name="Set CSS style" sid="952488239020097" type="Field">
+                    <param id="0" name="Property name">&quot;outline&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="2594079401454724" type="Field">
+                    <param id="0" name="Property name">&quot;border&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="724394089524774">
+            <conditions>
+                <condition id="3" name="Local key exists" sid="127114729243846" type="WebStorage">
+                    <param id="0" name="Key">&quot;history&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="6" name="Set HTML" sid="1611721054755982" type="HTMLIFrame">
+                    <param id="0" name="Set HTML">WebStorage.LocalValue(&quot;history&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="906939819556136">
+            <conditions>
+                <condition id="-22" name="Else" sid="237937418382122" type="System" />
+            </conditions>
+            <actions>
+                <action id="6" name="Set HTML" sid="938254965192394" type="HTMLIFrame">
+                    <param id="0" name="Set HTML">&quot;&lt;style&gt;body{color:#000}&lt;/style&gt;&lt;body&gt;&lt;article id=messages&gt;&lt;/article&gt;&lt;/body&gt;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3151072538882586">
+            <conditions>
+                <condition id="0" name="On function" sid="9110112172688942" type="Function">
+                    <param id="0" name="Name">&quot;AddMessage&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="24" name="Get elements" sid="9409446766686003" type="HTMLIFrame">
+                    <param id="0" name="ID/Class">&quot;#messages&quot;</param>
+                    <param id="1" name="Set">&quot;&quot;</param>
+                    <param id="2" name="Append">Function.Param(0)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1037768772579079">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="736185263986295" type="Keyboard">
+                    <param id="0" name="Key">13 (Return)</param>
+                </condition>
+                <condition id="0" inverted="1" name="Compare text" sid="8633356041456701" type="Field">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Call function" sid="9035553752158955" type="Function">
+                    <param id="0" name="Name">&quot;AddMessage&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;&lt;img src=&quot; &amp; avatar &amp; &quot;.png&gt; &quot; &amp; name &amp; &quot;: &quot; &amp; Field.Text &amp; &quot;&lt;br/&gt;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="3388687639990471" type="Field">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set local value" sid="513337399514026" type="WebStorage">
+                    <param id="0" name="Key">&quot;history&quot;</param>
+                    <param id="1" name="Value">HTMLIFrame.HTML</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5731372955021314">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3466190801607768" type="Keyboard">
+                    <param id="0" name="Key">17 (Ctrl)</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
