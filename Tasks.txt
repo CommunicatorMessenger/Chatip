@@ -1,0 +1,5 @@
+Settings menu: user name, avatar
+Exit from account
+Guest symbol
+Can vibrate the chat
+Tab menu: Chat, Amigos
