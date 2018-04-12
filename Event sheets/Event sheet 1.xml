@@ -38,7 +38,7 @@
             </conditions>
             <actions>
                 <action id="6" name="Set HTML" sid="938254965192394" type="HTMLIFrame">
-                    <param id="0" name="Set HTML">&quot;&lt;style&gt;body{color:#000}&lt;/style&gt;&lt;body&gt;&lt;article id=messages&gt;&lt;/article&gt;&lt;/body&gt;&quot;</param>
+                    <param id="0" name="Set HTML">&quot;&lt;style&gt;body{color:#000}#messages{padding:5px}&lt;/style&gt;&lt;body&gt;&lt;article id=messages&gt;&lt;/article&gt;&lt;/body&gt;&quot;</param>
                 </action>
             </actions>
         </event-block>

@@ -2,7 +2,7 @@
 <c2project>
     <name>Chatip</name>
     <description>Chat concorrente do Xat.com para você colocar em seu site.</description>
-    <version>0.2.4.5</version>
+    <version>0.2.4.8</version>
     <author>Plasmmer</author>
     <author-email>plasmmer@outlook.com</author-email>
     <author-website>http://</author-website>
@@ -26,7 +26,7 @@
         <width>625</width>
         <height>435</height>
     </window-size>
-    <pixel-rounding>0</pixel-rounding>
+    <pixel-rounding>1</pixel-rounding>
     <preview-effects>1</preview-effects>
     <use-loader-layout>0</use-loader-layout>
     <configuration-settings>
