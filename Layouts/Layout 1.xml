@@ -82,14 +82,14 @@
                         <x>0</x>
                         <y>408</y>
                         <z>0</z>
-                        <width>616</width>
+                        <width>572</width>
                         <height>26</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
                     </world>
                 </instance>
-                <instance type="HTMLIFrame" uid="6">
+                <instance type="Chat" uid="6">
                     <properties>
                         <id-optional></id-optional>
                         <class-optional></class-optional>
@@ -116,7 +116,7 @@
                         <x>9</x>
                         <y>5</y>
                         <z>0</z>
-                        <width>374</width>
+                        <width>383</width>
                         <height>364</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
@@ -124,10 +124,45 @@
                         <angle>0</angle>
                     </world>
                 </instance>
+                <instance type="TestName" uid="7">
+                    <properties>
+                        <text>Text</text>
+                        <initial-visibility>Visible</initial-visibility>
+                        <font>Arial,-16</font>
+                        <color>0,0,0</color>
+                        <horizontal-alignment>Left</horizontal-alignment>
+                        <vertical-alignment>Top</vertical-alignment>
+                        <hotspot>Top-left</hotspot>
+                        <wrapping>Word</wrapping>
+                        <line-height>0</line-height>
+                    </properties>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>470</x>
+                        <y>33</y>
+                        <z>0</z>
+                        <width>200</width>
+                        <height>30</height>
+                        <depth>0</depth>
+                        <hotspotX>0</hotspotX>
+                        <hotspotY>0</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
             </instances>
             <effects />
         </layer>
     </layers>
-    <nonworld-instances />
+    <nonworld-instances>
+        <instance type="Names" uid="2">
+            <properties>
+                <width>20</width>
+                <height>1</height>
+                <depth>1</depth>
+            </properties>
+        </instance>
+    </nonworld-instances>
     <effects />
 </c2layout>

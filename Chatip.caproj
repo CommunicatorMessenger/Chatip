@@ -2,7 +2,7 @@
 <c2project>
     <name>Chatip</name>
     <description>Chat concorrente do Xat.com para você colocar em seu site.</description>
-    <version>0.2.4.8</version>
+    <version>0.2.7.6</version>
     <author>Plasmmer</author>
     <author-email>plasmmer@outlook.com</author-email>
     <author-website>http://</author-website>
@@ -11,10 +11,12 @@
     <saved-with-version>24400</saved-with-version>
     <used-plugins>
         <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
     </used-plugins>
     <used-behaviors />
@@ -66,8 +68,14 @@
         <object-type name="WebStorage" sid="5227034718325799">
             <plugin id="WebStorage" />
         </object-type>
-        <object-type name="HTMLIFrame" sid="939095991965187">
+        <object-type name="Chat" sid="939095991965187">
             <plugin id="HTML_iFrame" />
+        </object-type>
+        <object-type global="1" name="Names" sid="900709971933922">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="TestName" sid="268917059490056">
+            <plugin id="Text" />
         </object-type>
     </object-folder>
     <families />
