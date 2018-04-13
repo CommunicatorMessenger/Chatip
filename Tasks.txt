@@ -1,6 +1,24 @@
-Settings menu: user name, avatar
-Exit from account
+Settings menu: nickname, avatar, CTRL+Enter or send-button, don't show colored texts, show nickname in message, show timestamp in message, don't show avatars
+* Funçao sair;
+* Funçao logar;
 Guest symbol
-Can vibrate the chat
+* Transparencia no Overlay;
+* Sistema para acrescentar background à partir de uma URL;
+* Tooltip informando a data da mensagem;
+* CTRL+Enter para iniciar novo parágrafo;
+* Poder alterar tamanho do texto;
+* Poder personalizar cor do texto com cores pré-definidas;
+* Menu help;
+can select messages
+
+* Menus de contexto;
+* Balões de fala;
+* Avatares em cada balão de fala;
+* Sistema de individualização dos avatares, relativo ao anfitrião de cada balão;
+* Scrollbar para rolar os balões de fala;
+* Novo sistema de historico armazenando as frases de cada divisória e balão, com seu respectivo anfitrião e data;
+* Em curto espaço de tempo, acrescentar nova linha ao único balão, com divisória;
+* Tooltip por divisória nos balões;
+
 Tab menu: Chat, Amigos
 Minify avatars and other img
