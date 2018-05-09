@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2project>
     <name>Chatip</name>
-    <description>Chat to embed in your site/blog.</description>
-    <version>0.2.9.9</version>
+    <description>Embed version of Communicator, for you put in your site/blog.</description>
+    <version>0.3.0.0</version>
     <author>Plasmmer</author>
     <author-email>plasmmer@outlook.com</author-email>
     <author-website>http://</author-website>
