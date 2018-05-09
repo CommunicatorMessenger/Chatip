@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="name" sid="133263561997086" static="0" type="text">Guest</variable>
+        <variable constant="0" name="name1" sid="438241751776058" static="0" type="text"></variable>
+        <variable constant="0" name="name2" sid="454213225893400" static="0" type="text"></variable>
+        <variable constant="0" name="avatar" sid="950606136152004" static="0" type="number">1</variable>
+        <variable constant="0" name="Tests" sid="390186170322080" static="0" type="number">0</variable>
+        <event-group description="" sid="322258475047081" title="Initial events">
+            <sub-events>
+                <comment>Sets the style of textbox.</comment>
+                <event-block sid="1482987199973487">
+                    <conditions>
+                        <condition id="-2" name="On start of layout" sid="788096131045558" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="7" name="Set CSS style" sid="952488239020097" type="Field">
+                            <param id="0" name="Property name">&quot;outline&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                        <action id="7" name="Set CSS style" sid="2594079401454724" type="Field">
+                            <param id="0" name="Property name">&quot;border&quot;</param>
+                            <param id="1" name="Value">&quot;none&quot;</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <comment>Sets the random names that can be set in user names.</comment>
+                        <event-block sid="280135462808992">
+                            <conditions />
+                            <actions>
+                                <action id="10" name="Insert" sid="905139116473675" type="Names">
+                                    <param id="0" name="Value">&quot;Kissie&quot;</param>
+                                    <param id="1" name="Index">0</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="461792408689605" type="Names">
+                                    <param id="0" name="Value">&quot;Honey&quot;</param>
+                                    <param id="1" name="Index">1</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="842174747290669" type="Names">
+                                    <param id="0" name="Value">&quot;Candy&quot;</param>
+                                    <param id="1" name="Index">2</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="826171344589237" type="Names">
+                                    <param id="0" name="Value">&quot;Pop&quot;</param>
+                                    <param id="1" name="Index">3</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="329644774793058" type="Names">
+                                    <param id="0" name="Value">&quot;Geek&quot;</param>
+                                    <param id="1" name="Index">4</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="126959496549533" type="Names">
+                                    <param id="0" name="Value">&quot;Peeper&quot;</param>
+                                    <param id="1" name="Index">5</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="202839158040167" type="Names">
+                                    <param id="0" name="Value">&quot;Screens&quot;</param>
+                                    <param id="1" name="Index">6</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="989112505226380" type="Names">
+                                    <param id="0" name="Value">&quot;Whindersson&quot;</param>
+                                    <param id="1" name="Index">7</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="270267226901121" type="Names">
+                                    <param id="0" name="Value">&quot;Chapolin&quot;</param>
+                                    <param id="1" name="Index">8</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="625391773330755" type="Names">
+                                    <param id="0" name="Value">&quot;Lollipop&quot;</param>
+                                    <param id="1" name="Index">9</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="869830487860774" type="Names">
+                                    <param id="0" name="Value">&quot;Neto&quot;</param>
+                                    <param id="1" name="Index">10</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="378810525819224" type="Names">
+                                    <param id="0" name="Value">&quot;Bush&quot;</param>
+                                    <param id="1" name="Index">11</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="296732658933974" type="Names">
+                                    <param id="0" name="Value">&quot;Trump&quot;</param>
+                                    <param id="1" name="Index">12</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="533249100765214" type="Names">
+                                    <param id="0" name="Value">&quot;Gates&quot;</param>
+                                    <param id="1" name="Index">13</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="322300169368952" type="Names">
+                                    <param id="0" name="Value">&quot;WiFi&quot;</param>
+                                    <param id="1" name="Index">14</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="981939780972528" type="Names">
+                                    <param id="0" name="Value">&quot;Wireless&quot;</param>
+                                    <param id="1" name="Index">15</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="341224007418280" type="Names">
+                                    <param id="0" name="Value">&quot;Coffee&quot;</param>
+                                    <param id="1" name="Index">16</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="305268939263747" type="Names">
+                                    <param id="0" name="Value">&quot;Sugar&quot;</param>
+                                    <param id="1" name="Index">17</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="824454909148891" type="Names">
+                                    <param id="0" name="Value">&quot;Jobs&quot;</param>
+                                    <param id="1" name="Index">18</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="709760297945777" type="Names">
+                                    <param id="0" name="Value">&quot;Lorem&quot;</param>
+                                    <param id="1" name="Index">19</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <comment>Sets the content of message box and read messages from storage</comment>
+                <event-block sid="724394089524774">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="127114729243846" type="WebStorage">
+                            <param id="0" name="Key">&quot;history&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set HTML" sid="1611721054755982" type="Chat">
+                            <param id="0" name="Set HTML">WebStorage.LocalValue(&quot;history&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="906939819556136">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="237937418382122" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="6" name="Set HTML" sid="938254965192394" type="Chat">
+                            <param id="0" name="Set HTML">&quot;&lt;style&gt;body{color:#000}#messages{padding:5px}&lt;/style&gt;&lt;body&gt;&lt;article id=messages&gt;&lt;/article&gt;&lt;/body&gt;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="257433272849547">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="478392058277486" type="WebStorage">
+                            <param id="0" name="Key">&quot;name&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="561882325799805" type="System">
+                            <param id="0" name="Variable">name</param>
+                            <param id="1" name="Value">WebStorage.LocalValue(&quot;name&quot;)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="848130458769019" type="TestName">
+                            <param id="0" name="Text">name</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="474198559628949">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="727503267419723" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="229150078764814" type="System">
+                            <param id="0" name="Variable">Tests</param>
+                            <param id="1" name="Value">int(random(Names.Width))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="759458848365875" type="System">
+                            <param id="0" name="Variable">name1</param>
+                            <param id="1" name="Value">Names.At(Tests)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="215012282848632" type="System">
+                            <param id="0" name="Variable">Tests</param>
+                            <param id="1" name="Value">int(random(Names.Width))</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="397503855641911" type="System">
+                            <param id="0" name="Variable">name2</param>
+                            <param id="1" name="Value">Names.At(Tests)</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="762707486980371" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="581535759564382" type="System">
+                            <param id="0" name="Variable">name</param>
+                            <param id="1" name="Value">name1 &amp; &quot; &quot; &amp; name2</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="468185160727458" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="771374537796784" type="WebStorage">
+                            <param id="0" name="Key">&quot;name&quot;</param>
+                            <param id="1" name="Value">name</param>
+                        </action>
+                        <action id="0" name="Set text" sid="581422961997789" type="TestName">
+                            <param id="0" name="Text">name</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="778707648116716">
+                    <conditions>
+                        <condition id="3" name="Local key exists" sid="776218667799910" type="WebStorage">
+                            <param id="0" name="Key">&quot;avatar&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="366454989046969" type="System">
+                            <param id="0" name="Variable">avatar</param>
+                            <param id="1" name="Value">WebStorage.LocalValue(&quot;avatar&quot;)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="607636628684972">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="367856902349953" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="769887964531948" type="System">
+                            <param id="0" name="Variable">avatar</param>
+                            <param id="1" name="Value">int(random(151))</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="317070109701229" type="System">
+                            <param id="0" name="Seconds">0.1</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="435197235739474" type="WebStorage">
+                            <param id="0" name="Key">&quot;avatar&quot;</param>
+                            <param id="1" name="Value">avatar</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="423406898348188" type="TestAvatar">
+                            <param id="0" name="URI">avatar &amp; &quot;.png&quot;</param>
+                            <param id="1" name="Size">0</param>
+                            <param id="2" name="Cross-origin">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="188982759573726" title="Messaging">
+            <sub-events>
+                <event-block sid="3151072538882586">
+                    <conditions>
+                        <condition id="0" name="On function" sid="9110112172688942" type="Function">
+                            <param id="0" name="Name">&quot;AddMessage&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="24" name="Get elements" sid="9409446766686003" type="Chat">
+                            <param id="0" name="ID/Class">&quot;#messages&quot;</param>
+                            <param id="1" name="Set">&quot;&quot;</param>
+                            <param id="2" name="Append">Function.Param(0)</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="1037768772579079">
+                    <conditions>
+                        <condition id="0" name="On key pressed" sid="736185263986295" type="Keyboard">
+                            <param id="0" name="Key">13 (Return)</param>
+                        </condition>
+                        <condition id="0" inverted="1" name="Compare text" sid="8633356041456701" type="Field">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                            <param id="1" name="Case">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Call function" sid="9035553752158955" type="Function">
+                            <param id="0" name="Name">&quot;AddMessage&quot;</param>
+                            <param id="1" name="Parameter {n}">&quot;&lt;img src=&quot; &amp; avatar &amp; &quot;.png title=&quot; &amp; name &amp; &quot;&gt; &quot; &amp; name &amp; &quot;: &quot; &amp; Field.Text &amp; &quot;&lt;br/&gt;&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3388687639990471" type="Field">
+                            <param id="0" name="Text">&quot;&quot;</param>
+                        </action>
+                        <action id="0" name="Set local value" sid="513337399514026" type="WebStorage">
+                            <param id="0" name="Key">&quot;history&quot;</param>
+                            <param id="1" name="Value">Chat.HTML</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="5731372955021314">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="3466190801607768" type="Keyboard">
+                    <param id="0" name="Key">17 (Ctrl)</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>
