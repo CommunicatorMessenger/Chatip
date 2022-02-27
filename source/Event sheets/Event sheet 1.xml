@@ -24,9 +24,6 @@
                             <param id="0" name="Property name">&quot;border&quot;</param>
                             <param id="1" name="Value">&quot;none&quot;</param>
                         </action>
-                        <action disabled="1" id="6" name="Set HTML" sid="286859638552500" type="Chat">
-                            <param id="0" name="Set HTML">&quot;&lt;style&gt;body{color:#000}#messages{padding:5px}&lt;/style&gt;&lt;body&gt;&lt;article id=messages&gt;&lt;/article&gt;&lt;/body&gt;&quot;</param>
-                        </action>
                     </actions>
                     <sub-events>
                         <comment>Sets the random names that can be set in user names.</comment>
@@ -279,99 +276,51 @@
                                 <condition id="-22" name="Else" sid="727503267419723" type="System" />
                             </conditions>
                             <actions>
-                                <action disabled="1" id="-9" name="Set value" sid="229150078764814" type="System">
-                                    <param id="0" name="Variable">Tests</param>
-                                    <param id="1" name="Value">int(random(Names.Width))</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="824935888667156" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="824935888667156" type="System">
                                     <param id="0" name="Variable">Tests</param>
                                     <param id="1" name="Value">int(random(Names.Width/2))</param>
                                 </action>
-                                <action id="-16" name="Wait" sid="328597872673968" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="328597872673968" type="System">
                                     <param id="0" name="Seconds">dt</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="759458848365875" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="971259970941162" type="System">
                                     <param id="0" name="Variable">name1</param>
                                     <param id="1" name="Value">Names.At(Tests)</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="726916779285881" type="System">
-                                    <param id="0" name="Variable">name1</param>
-                                    <param id="1" name="Value">int(random(Names.Width))</param>
-                                </action>
-                                <action disabled="1" id="-9" name="Set value" sid="310225697297108" type="System">
-                                    <param id="0" name="Variable">name1</param>
-                                    <param id="1" name="Value">Names.At(0)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="971259970941162" type="System">
-                                    <param id="0" name="Variable">name1</param>
-                                    <param id="1" name="Value">Names.At(Tests)</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="786269787013752" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="786269787013752" type="System">
                                     <param id="0" name="Seconds">dt</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="215012282848632" type="System">
-                                    <param id="0" name="Variable">Tests</param>
-                                    <param id="1" name="Value">int(random(Names.Width))</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="715460537283090" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="715460537283090" type="System">
                                     <param id="0" name="Variable">Tests</param>
                                     <param id="1" name="Value">int(random(Names.Width/2))</param>
                                 </action>
-                                <action id="-16" name="Wait" sid="171711115741036" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="171711115741036" type="System">
                                     <param id="0" name="Seconds">dt</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="397503855641911" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="836808100265123" type="System">
                                     <param id="0" name="Variable">name2</param>
                                     <param id="1" name="Value">Names.At(Tests)</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="629477236034092" type="System">
-                                    <param id="0" name="Variable">name2</param>
-                                    <param id="1" name="Value">int(random(Names.Width))</param>
-                                </action>
-                                <action disabled="1" id="-9" name="Set value" sid="954581630310626" type="System">
-                                    <param id="0" name="Variable">name2</param>
-                                    <param id="1" name="Value">Names.At(24)</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="836808100265123" type="System">
-                                    <param id="0" name="Variable">name2</param>
-                                    <param id="1" name="Value">Names.At(Tests)</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="762707486980371" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="762707486980371" type="System">
                                     <param id="0" name="Seconds">0.1</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="581535759564382" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="788654751488719" type="System">
                                     <param id="0" name="Variable">name</param>
                                     <param id="1" name="Value">name1 &amp; &quot; &quot; &amp; name2</param>
                                 </action>
-                                <action disabled="1" id="-9" name="Set value" sid="494224722545608" type="System">
-                                    <param id="0" name="Variable">name</param>
-                                    <param id="1" name="Value">int(random(Names.Width))</param>
-                                </action>
-                                <action disabled="1" id="-9" name="Set value" sid="321017662262747" type="System">
-                                    <param id="0" name="Variable">name</param>
-                                    <param id="1" name="Value">int(random(Names.Width)) &amp; &quot; &quot; &amp; int(random(Names.Width))</param>
-                                </action>
-                                <action disabled="1" id="-9" name="Set value" sid="452287452755072" type="System">
-                                    <param id="0" name="Variable">name</param>
-                                    <param id="1" name="Value">Names.Width/2</param>
-                                </action>
-                                <action disabled="1" id="-9" name="Set value" sid="980933812673461" type="System">
-                                    <param id="0" name="Variable">name</param>
-                                    <param id="1" name="Value">int(random(Names.Width/2)) &amp; &quot; &quot; &amp; int(random(Names.Width/2))</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="788654751488719" type="System">
-                                    <param id="0" name="Variable">name</param>
-                                    <param id="1" name="Value">name1 &amp; &quot; &quot; &amp; name2</param>
-                                </action>
-                                <action id="-16" name="Wait" sid="468185160727458" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="468185160727458" type="System">
                                     <param id="0" name="Seconds">0.1</param>
                                 </action>
-                                <action id="0" name="Set local value" sid="771374537796784" type="WebStorage">
+                                <action disabled="1" id="0" name="Set local value" sid="771374537796784" type="WebStorage">
                                     <param id="0" name="Key">&quot;name&quot;</param>
                                     <param id="1" name="Value">name</param>
                                 </action>
-                                <action id="0" name="Set text" sid="581422961997789" type="TestName">
+                                <action disabled="1" id="0" name="Set text" sid="581422961997789" type="TestName">
                                     <param id="0" name="Text">name</param>
+                                </action>
+                                <action id="0" name="Call function" sid="166527874629312" type="Function">
+                                    <param id="0" name="Name">&quot;GuestMode_Name&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -398,21 +347,25 @@
                                 <condition id="-22" name="Else" sid="367856902349953" type="System" />
                             </conditions>
                             <actions>
-                                <action id="-9" name="Set value" sid="769887964531948" type="System">
+                                <action disabled="1" id="-9" name="Set value" sid="769887964531948" type="System">
                                     <param id="0" name="Variable">avatar</param>
                                     <param id="1" name="Value">int(random(151))</param>
                                 </action>
-                                <action id="-16" name="Wait" sid="317070109701229" type="System">
+                                <action disabled="1" id="-16" name="Wait" sid="317070109701229" type="System">
                                     <param id="0" name="Seconds">0.1</param>
                                 </action>
-                                <action id="0" name="Set local value" sid="435197235739474" type="WebStorage">
+                                <action disabled="1" id="0" name="Set local value" sid="435197235739474" type="WebStorage">
                                     <param id="0" name="Key">&quot;avatar&quot;</param>
                                     <param id="1" name="Value">avatar</param>
                                 </action>
-                                <action id="10" name="Load image from URL" sid="423406898348188" type="TestAvatar">
+                                <action disabled="1" id="10" name="Load image from URL" sid="423406898348188" type="TestAvatar">
                                     <param id="0" name="URI">avatar &amp; &quot;.png&quot;</param>
                                     <param id="1" name="Size">0</param>
                                     <param id="2" name="Cross-origin">0</param>
+                                </action>
+                                <action id="0" name="Call function" sid="346892574433573" type="Function">
+                                    <param id="0" name="Name">&quot;GuestMode_Avatar&quot;</param>
+                                    <param id="1" name="Parameter {n}">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -474,14 +427,97 @@
             </conditions>
             <actions />
         </event-block>
-        <event-block disabled="1" sid="587859648867161">
+        <event-block sid="587859648867161">
             <conditions>
                 <condition id="3" name="On touched object" sid="685041831094225" type="Touch">
                     <param id="0" name="Object">BtnExit</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="1" name="Close" sid="810999270963981" type="Browser" />
+                <action id="0" name="Call function" sid="977671268418782" type="Function">
+                    <param id="0" name="Name">&quot;GuestMode_Name&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Call function" sid="492556900611443" type="Function">
+                    <param id="0" name="Name">&quot;GuestMode_Avatar&quot;</param>
+                    <param id="1" name="Parameter {n}">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="480370837354869">
+            <conditions>
+                <condition id="0" name="On function" sid="327376866122151" type="Function">
+                    <param id="0" name="Name">&quot;GuestMode_Name&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="852151574188582" type="System">
+                    <param id="0" name="Variable">Tests</param>
+                    <param id="1" name="Value">int(random(Names.Width/2))</param>
+                </action>
+                <action id="-16" name="Wait" sid="884770132698742" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="-9" name="Set value" sid="179017122616536" type="System">
+                    <param id="0" name="Variable">name1</param>
+                    <param id="1" name="Value">Names.At(Tests)</param>
+                </action>
+                <action id="-16" name="Wait" sid="978044364648174" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="-9" name="Set value" sid="309792681064898" type="System">
+                    <param id="0" name="Variable">Tests</param>
+                    <param id="1" name="Value">int(random(Names.Width/2))</param>
+                </action>
+                <action id="-16" name="Wait" sid="802207480253072" type="System">
+                    <param id="0" name="Seconds">dt</param>
+                </action>
+                <action id="-9" name="Set value" sid="236863382697615" type="System">
+                    <param id="0" name="Variable">name2</param>
+                    <param id="1" name="Value">Names.At(Tests)</param>
+                </action>
+                <action id="-16" name="Wait" sid="191965708770044" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="-9" name="Set value" sid="497105451924577" type="System">
+                    <param id="0" name="Variable">name</param>
+                    <param id="1" name="Value">name1 &amp; &quot; &quot; &amp; name2</param>
+                </action>
+                <action id="-16" name="Wait" sid="775904993092967" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="0" name="Set local value" sid="959082288394613" type="WebStorage">
+                    <param id="0" name="Key">&quot;name&quot;</param>
+                    <param id="1" name="Value">name</param>
+                </action>
+                <action id="0" name="Set text" sid="246997390370622" type="TestName">
+                    <param id="0" name="Text">name</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="569965610492170">
+            <conditions>
+                <condition id="0" name="On function" sid="940165247576743" type="Function">
+                    <param id="0" name="Name">&quot;GuestMode_Avatar&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="526613984277021" type="System">
+                    <param id="0" name="Variable">avatar</param>
+                    <param id="1" name="Value">int(random(151))</param>
+                </action>
+                <action id="-16" name="Wait" sid="397192162670913" type="System">
+                    <param id="0" name="Seconds">0.1</param>
+                </action>
+                <action id="0" name="Set local value" sid="684619653869651" type="WebStorage">
+                    <param id="0" name="Key">&quot;avatar&quot;</param>
+                    <param id="1" name="Value">avatar</param>
+                </action>
+                <action id="10" name="Load image from URL" sid="561890351364683" type="TestAvatar">
+                    <param id="0" name="URI">avatar &amp; &quot;.png&quot;</param>
+                    <param id="1" name="Size">0</param>
+                    <param id="2" name="Cross-origin">0</param>
+                </action>
             </actions>
         </event-block>
     </events>
