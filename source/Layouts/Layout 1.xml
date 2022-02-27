@@ -180,9 +180,9 @@
     <nonworld-instances>
         <instance type="Names" uid="2">
             <properties>
-                <width>20</width>
-                <height>1</height>
-                <depth>1</depth>
+                <width>33</width>
+                <height>0</height>
+                <depth>0</depth>
             </properties>
         </instance>
     </nonworld-instances>

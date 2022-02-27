@@ -12,6 +12,7 @@
     <used-plugins>
         <plugin author="Pinco, Scirra" id="AdvTextBox" version="1.700000048">Advanced Text box</plugin>
         <plugin author="Scirra" id="Arr" version="1">Array</plugin>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="PlayLive" id="HTML_iFrame" version="1.419999957">HTML | iFrame</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -43,7 +44,7 @@
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
-        <prop name="Preview browser">Custom</prop>
+        <prop name="Preview browser">(default)</prop>
         <prop name="Sampling">Linear</prop>
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
@@ -85,6 +86,9 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="Browser" sid="240857465201288">
+            <plugin id="Browser" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -97,6 +101,7 @@
         <global-instance type="Function" uid="3" />
         <global-instance type="Keyboard" uid="4" />
         <global-instance type="WebStorage" uid="5" />
+        <global-instance type="Browser" uid="9" />
     </global-instances>
     <sounds-folder />
     <music-folder />

@@ -91,7 +91,7 @@
                                     <param id="2" name="Axis">0</param>
                                 </action>
                                 <action id="10" name="Insert" sid="296732658933974" type="Names">
-                                    <param id="0" name="Value">&quot;Trump&quot;</param>
+                                    <param id="0" name="Value">&quot;Bond&quot;</param>
                                     <param id="1" name="Index">12</param>
                                     <param id="2" name="Axis">0</param>
                                 </action>
@@ -128,6 +128,106 @@
                                 <action id="10" name="Insert" sid="709760297945777" type="Names">
                                     <param id="0" name="Value">&quot;Lorem&quot;</param>
                                     <param id="1" name="Index">19</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="385169078280695" type="Names">
+                                    <param id="0" name="Value">&quot;Ipsum&quot;</param>
+                                    <param id="1" name="Index">20</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="202924952959676" type="Names">
+                                    <param id="0" name="Value">&quot;Biden&quot;</param>
+                                    <param id="1" name="Index">21</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="107604611656491" type="Names">
+                                    <param id="0" name="Value">&quot;Harris&quot;</param>
+                                    <param id="1" name="Index">22</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="129202126176620" type="Names">
+                                    <param id="0" name="Value">&quot;Sanders&quot;</param>
+                                    <param id="1" name="Index">23</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="208550468611218" type="Names">
+                                    <param id="0" name="Value">&quot;Bernie&quot;</param>
+                                    <param id="1" name="Index">24</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="904808534359154" type="Names">
+                                    <param id="0" name="Value">&quot;Plasma&quot;</param>
+                                    <param id="1" name="Index">25</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="535291120810498" type="Names">
+                                    <param id="0" name="Value">&quot;Bitcoin&quot;</param>
+                                    <param id="1" name="Index">26</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="413104481589880" type="Names">
+                                    <param id="0" name="Value">&quot;Litecoin&quot;</param>
+                                    <param id="1" name="Index">27</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="140217851145614" type="Names">
+                                    <param id="0" name="Value">&quot;Bitbean&quot;</param>
+                                    <param id="1" name="Index">28</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="125046110447057" type="Names">
+                                    <param id="0" name="Value">&quot;Ripple&quot;</param>
+                                    <param id="1" name="Index">29</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="239710789000760" type="Names">
+                                    <param id="0" name="Value">&quot;Ethereum&quot;</param>
+                                    <param id="1" name="Index">30</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="366768396745174" type="Names">
+                                    <param id="0" name="Value">&quot;DeFi&quot;</param>
+                                    <param id="1" name="Index">31</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action id="10" name="Insert" sid="975432241458779" type="Names">
+                                    <param id="0" name="Value">&quot;NFT&quot;</param>
+                                    <param id="1" name="Index">32</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="879882669297911" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">33</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="527081158739079" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">34</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="442045229528965" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">35</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="801931698805896" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">36</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="498344575068231" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">37</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="457644491778708" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">38</param>
+                                    <param id="2" name="Axis">0</param>
+                                </action>
+                                <action disabled="1" id="10" name="Insert" sid="113646221106872" type="Names">
+                                    <param id="0" name="Value">&quot;&quot;</param>
+                                    <param id="1" name="Index">39</param>
                                     <param id="2" name="Axis">0</param>
                                 </action>
                             </actions>
@@ -178,21 +278,32 @@
                         <condition id="-22" name="Else" sid="727503267419723" type="System" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="229150078764814" type="System">
+                        <action disabled="1" id="-9" name="Set value" sid="229150078764814" type="System">
                             <param id="0" name="Variable">Tests</param>
                             <param id="1" name="Value">int(random(Names.Width))</param>
                         </action>
-                        <action id="-9" name="Set value" sid="759458848365875" type="System">
+                        <action disabled="1" id="-9" name="Set value" sid="759458848365875" type="System">
                             <param id="0" name="Variable">name1</param>
                             <param id="1" name="Value">Names.At(Tests)</param>
                         </action>
-                        <action id="-9" name="Set value" sid="215012282848632" type="System">
+                        <action id="-9" name="Set value" sid="726916779285881" type="System">
+                            <param id="0" name="Variable">name1</param>
+                            <param id="1" name="Value">int(random(Names.Width))</param>
+                        </action>
+                        <action id="-16" name="Wait" sid="786269787013752" type="System">
+                            <param id="0" name="Seconds">dt</param>
+                        </action>
+                        <action disabled="1" id="-9" name="Set value" sid="215012282848632" type="System">
                             <param id="0" name="Variable">Tests</param>
                             <param id="1" name="Value">int(random(Names.Width))</param>
                         </action>
-                        <action id="-9" name="Set value" sid="397503855641911" type="System">
+                        <action disabled="1" id="-9" name="Set value" sid="397503855641911" type="System">
                             <param id="0" name="Variable">name2</param>
                             <param id="1" name="Value">Names.At(Tests)</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="629477236034092" type="System">
+                            <param id="0" name="Variable">name2</param>
+                            <param id="1" name="Value">int(random(Names.Width))</param>
                         </action>
                         <action id="-16" name="Wait" sid="762707486980371" type="System">
                             <param id="0" name="Seconds">0.1</param>
@@ -223,6 +334,11 @@
                         <action id="-9" name="Set value" sid="366454989046969" type="System">
                             <param id="0" name="Variable">avatar</param>
                             <param id="1" name="Value">WebStorage.LocalValue(&quot;avatar&quot;)</param>
+                        </action>
+                        <action id="10" name="Load image from URL" sid="642887127375446" type="TestAvatar">
+                            <param id="0" name="URI">avatar &amp; &quot;.png&quot;</param>
+                            <param id="1" name="Size">0</param>
+                            <param id="2" name="Cross-origin">0</param>
                         </action>
                     </actions>
                 </event-block>
@@ -281,6 +397,10 @@
                         <action id="0" name="Call function" sid="9035553752158955" type="Function">
                             <param id="0" name="Name">&quot;AddMessage&quot;</param>
                             <param id="1" name="Parameter {n}">&quot;&lt;img src=&quot; &amp; avatar &amp; &quot;.png title=&quot; &amp; name &amp; &quot;&gt; &quot; &amp; name &amp; &quot;: &quot; &amp; Field.Text &amp; &quot;&lt;br/&gt;&quot;</param>
+                        </action>
+                        <action id="14" name="Log" sid="521571152044946" type="Browser">
+                            <param id="0" name="Type">0</param>
+                            <param id="1" name="Message">&quot;New msg&quot;</param>
                         </action>
                         <action id="0" name="Set text" sid="3388687639990471" type="Field">
                             <param id="0" name="Text">&quot;&quot;</param>
